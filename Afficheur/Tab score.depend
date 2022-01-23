@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1638540649 source:u:\johan.gerbe\sin\afficheur tennis\tab score\main.c
+	<stdio.h>
+	<stdlib.h>
+
