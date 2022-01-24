@@ -17,11 +17,6 @@ switch(tab_points[0]){
         case 40:
 
         break;
-
-
-
-
-
 }
 //Affichage interface utilisateur
     printf(" --------------------------------------\n");
@@ -35,7 +30,7 @@ switch(tab_points[0]){
     printf(" --------------------------------------\n");
 
 
-//int tab_points[joueur](); // quand j'actionne une touche du joueur, on incremente la 1er fois 15, 15, 10
+// IncrÃ©mentation
 
          scanf("%i",&joueur);
          joueur--; // 1-> 0 et 2 -> 1
@@ -89,9 +84,7 @@ switch(tab_points[0]){
 
     }    }
         if((tab_set1[joueur]==6&&tab_set2[joueur]==6)||(tab_set2[joueur]==6&&tab_set3[joueur]==6)||(tab_set1[joueur]==6&&tab_set3[joueur]==6)){
-            printf("C'est gagné!");
-
-
+            printf("C'est gagnÃ©!");
 
 }
 }
@@ -128,18 +121,6 @@ return 0;
 
 
 
-// arrivé à 7, je bascule directement au 3nd set
-
-
-
-
-
-
-
-
-
-
-// arrivé à 7, celui qui en a gagné 2, gagne et affiche, joueur... c'est gagné
 
 
 
